@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/landxml-1.2/LandXML-1.2.xsd" version="1.2" date="2019-09-23" time="14:18:14">
+  <Project name="Default">
+    <Feature code="GridScaleFactor">
+      <Property label="GridScaleFactor" value="1.000000000000"/>
+    </Feature>
+  </Project>
+  <Units>
+    <Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="HPA" angularUnit="radians" directionUnit="radians"/>
+  </Units>
+  <Application name="Power Rail Track V8i (SELECTseries 4)" manufacturer="Bentley Systems, Inc." version="08.11.09.904" manufacturerURL="www.bentley.com"/>
+  <Alignments>
+    <Alignment name="Voie 1 CDG" length="1321.697144239" staStart="0.000000000" state="proposed">
+      <CoordGeom name="Voie 1 CDG" state="proposed">
+        <Curve rot="ccw" crvType="arc" length="93.076281198" chord="93.075422903" dirStart="0.808535450" dirEnd="0.793658798" staStart="0.000000000" radius="6256.534362254">
+          <Start code="PC">
+              8195246.239780988 1671754.925323552 0.000000000
+          </Start>
+          <Center code="CC">
+              8199771.444637788 1667434.422664132 0.000000000
+          </Center>
+          <End code="PCC">
+              8195311.012760566 1671821.764649290 0.000000000
+          </End>
+          <Feature code="Curve">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Curve>
+        <Curve rot="ccw" crvType="arc" length="19.653216001" chord="19.653207914" dirStart="0.793658798" dirEnd="0.790516295" staStart="93.076281198" radius="6253.999412884">
+          <Start code="PCC">
+              8195311.012762103 1671821.764650853 0.000000000
+          </Start>
+          <Center code="CC">
+              8199769.637413739 1667436.200277574 0.000000000
+          </Center>
+          <End code="C-RP">
+              8195324.816406659 1671835.754217619 0.000000000
+          </End>
+          <Feature code="Curve">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Curve>
+        <Spiral length="60.000003529" radiusEnd="2499.999987756" radiusStart="6253.999412884" rot="ccw" spiType="clothoid" dirStart="0.790516295" dirEnd="0.773719363" staStart="112.729497199" constant="499.893463921" theta="0.016796931" totalY="0.431868059" totalX="59.997735253" tanLong="34.289025068" tanShort="25.712337299">
+          <Start code="C-RP">
+              8195324.816406659 1671835.754217619 0.000000000
+          </Start>
+          <PI code="PI">
+              8195348.937997561 1671860.123995880 0.000000000
+          </PI>
+          <End code="RP-C">
+              8195367.330457459 1671878.091792302 0.000000000
+          </End>
+          <Feature code="Spiral">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Spiral>
+        <Curve rot="ccw" crvType="arc" length="54.788389027" chord="54.787292620" dirStart="0.773719363" dirEnd="0.751804007" staStart="172.729500728" radius="2499.999987756">
+          <Start code="RP-C">
+              8195367.330457459 1671878.091792302 0.000000000
+          </Start>
+          <Center code="CC">
+              8197114.331918752 1670089.800475703 0.000000000
+          </Center>
+          <End code="PCC">
+              8195406.937871335 1671915.945460535 0.000000000
+          </End>
+          <Feature code="Curve">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Curve>
+        <Curve rot="ccw" crvType="arc" length="52.328092195" chord="52.327939169" dirStart="0.751804007" dirEnd="0.743426392" staStart="227.517889755" radius="6246.180019258">
+          <Start code="PCC">
+              8195406.937871717 1671915.945460890 0.000000000
+          </Start>
+          <Center code="CC">
+              8199672.814126198 1667353.373311935 0.000000000
+          </Center>
+          <End code="C-RP">
+              8195445.310596223 1671951.522802439 0.000000000
+          </End>
+          <Feature code="Curve">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Curve>
+        <Spiral length="16.006637614" radiusEnd="INF" radiusStart="6246.180019258" rot="ccw" spiType="clothoid" dirStart="0.743426392" dirEnd="0.742145078" staStart="279.845981949" constant="316.196679366" theta="0.001281314" totalY="0.006836510" totalX="16.006634986" tanLong="10.671092662" tanShort="5.335546704">
+          <Start code="C-RP">
+              8195445.310596223 1671951.522802439 0.000000000
+          </Start>
+          <PI code="PI">
+              8195449.238379490 1671955.133976382 0.000000000
+          </PI>
+          <End code="I">
+              8195457.103193118 1671962.346252388 0.000000000
+          </End>
+          <Feature code="Spiral">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Spiral>
+        <Spiral length="23.993362111" radiusEnd="4167.000005200" radiusStart="INF" rot="cw" spiType="clothoid" dirStart="0.742145078" dirEnd="0.745024051" staStart="295.852619564" constant="316.196679366" theta="0.002878973" totalY="0.023025401" totalX="23.993342224" tanLong="15.995581698" tanShort="7.997793671">
+          <Start code="I">
+              8195457.103193118 1671962.346252388 0.000000000
+          </Start>
+          <PI code="PI">
+              8195468.892264159 1671973.157193146 0.000000000
+          </PI>
+          <End code="RP-C">
+              8195474.771215119 1671978.579613199 0.000000000
+          </End>
+          <Feature code="Spiral">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Spiral>
+        <Curve rot="cw" crvType="arc" length="74.404525828" chord="74.403537416" dirStart="0.745024051" dirEnd="0.762879709" staStart="319.845981675" radius="4167.000005200">
+          <Start code="RP-C">
+              8195474.771215119 1671978.579613199 0.000000000
+          </Start>
+          <Center code="CC">
+              8192649.589006347 1675041.622957747 0.000000000
+          </Center>
+          <End code="C-RP">
+              8195529.010605787 1672029.510692904 0.000000000
+          </End>
+          <Feature code="Curve">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Curve>
+        <Spiral length="59.999999348" radiusEnd="INF" radiusStart="4167.000005200" rot="cw" spiType="clothoid" dirStart="0.762879709" dirEnd="0.770079133" staStart="394.250507503" constant="500.019997196" theta="0.007199424" totalY="0.143987943" totalX="59.999688359" tanLong="40.000108359" tanShort="20.000098318">
+          <Start code="C-RP">
+              8195529.010605787 1672029.510692904 0.000000000
+          </Start>
+          <PI code="PI">
+              8195543.467659150 1672043.330878892 0.000000000
+          </PI>
+          <End code="RP-A">
+              8195572.181960139 1672071.178636206 0.000000000
+          </End>
+          <Feature code="Spiral">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Spiral>
+        <Line length="118.592869578" dir="0.770079133" staStart="454.250506851">
+          <Start code="RP-A">
+              8195572.181960139 1672071.178636206 0.000000000
+          </Start>
+          <End code="A-RP">
+              8195657.314513324 1672153.742048823 0.000000000
+          </End>
+          <Feature code="Line">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Line>
+        <Spiral length="90.000488834" radiusEnd="369.999999996" radiusStart="INF" rot="ccw" spiType="clothoid" dirStart="0.770079133" dirEnd="0.648456851" staStart="572.843376429" constant="182.483371485" theta="0.121622282" totalY="3.644825104" totalX="89.867451439" tanLong="60.046962148" tanShort="30.042408885">
+          <Start code="A-RP">
+              8195657.314513324 1672153.742048823 0.000000000
+          </Start>
+          <PI code="PI">
+              8195700.419560169 1672195.546266310 0.000000000
+          </PI>
+          <End code="RP-C">
+              8195724.363863058 1672213.690595749 0.000000000
+          </End>
+          <Feature code="Spiral">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Spiral>
+        <Curve rot="ccw" crvType="arc" length="556.708234077" chord="505.661233206" dirStart="0.648456851" dirEnd="5.427025309" staStart="662.843865263" radius="369.999999996">
+          <Start code="RP-C">
+              8195724.363863058 1672213.690595749 0.000000000
+          </Start>
+          <Center code="CC">
+              8195947.828030600 1671918.794400756 0.000000000
+          </Center>
+          <End code="C-RP">
+              8196227.300730183 1672161.271224773 0.000000000
+          </End>
+          <Feature code="Curve">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Curve>
+        <Spiral length="90.000488724" radiusEnd="INF" radiusStart="369.999999997" rot="ccw" spiType="clothoid" dirStart="5.427025309" dirEnd="5.305403027" staStart="1219.552099341" constant="182.483371373" theta="0.121622282" totalY="3.644825095" totalX="89.867451329" tanLong="60.046962074" tanShort="30.042408848">
+          <Start code="C-RP">
+              8196227.300730183 1672161.271224773 0.000000000
+          </Start>
+          <PI code="PI">
+              8196246.988805544 1672138.579243414 0.000000000
+          </PI>
+          <End code="RP-A">
+              8196280.546830067 1672088.784699091 0.000000000
+          </End>
+          <Feature code="Spiral">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Spiral>
+        <Line length="12.144556174" dir="5.305403027" staStart="1309.552588065">
+          <Start code="RP-A">
+              8196280.546830067 1672088.784699091 0.000000000
+          </Start>
+          <End code="FIN">
+              8196287.333972995 1672078.713704326 0.000000000
+          </End>
+          <Feature code="Line">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </Line>
+      </CoordGeom>
+      <Profile>
+        <ProfAlign name="PL Voie 1 CDG ">
+          <PVI>
+              -0.000000000 60.887019815
+          </PVI>
+          <PVI>
+              93.075960212 61.408200000
+          </PVI>
+          <PVI>
+              142.725960212 61.731000000
+          </PVI>
+          <PVI>
+              295.849081212 62.114000000
+          </PVI>
+          <CircCurve radius="3500.000000000" length="106.678565867">
+              440.158147212 61.897000000
+          </CircCurve>
+          <CircCurve radius="3500.000000000" length="223.886993240">
+              693.098204212 53.803000000
+          </CircCurve>
+          <CircCurve radius="3500.000000000" length="75.071573293">
+              1060.683001212 65.566000000
+          </CircCurve>
+          <PVI>
+              1309.778113646 68.190458774
+          </PVI>
+          <Feature code="ProfAlign">
+            <Property label="style" value="TLN Small"/>
+          </Feature>
+        </ProfAlign>
+      </Profile>
+      <Cant name="Cant Voie 1 CDG " gauge="1.500000000" rotationPoint="insideRail">
+        <CantStation station="0.000000000" equilibriumCant="18.860" appliedCant="70.000" cantDeficiency="-51.140" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.000" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="83.076281198" equilibriumCant="18.860" appliedCant="70.000" cantDeficiency="-51.140" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.011" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="103.076281198" equilibriumCant="18.868" appliedCant="70.000" cantDeficiency="-51.132" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.000" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="112.729497199" equilibriumCant="18.868" appliedCant="70.000" cantDeficiency="-51.132" rateOfChangeOfAppliedCantOverTime="32.407" rateOfChangeOfAppliedCantOverLength="-1.167" rateOfChangeOfCantDeficiencyOverTime="45.524" cantGradient="857.143" speed="100.0" transitionType="clothoid" curvature="ccw" adverse="false"/>
+        <CantStation station="172.729500728" equilibriumCant="47.200" appliedCant="0.000" cantDeficiency="47.200" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.000" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="217.517889755" equilibriumCant="47.200" appliedCant="0.000" cantDeficiency="47.200" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="39.317" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="237.517889755" equilibriumCant="18.892" appliedCant="0.000" cantDeficiency="18.892" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.000" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="279.845981949" equilibriumCant="18.892" appliedCant="0.000" cantDeficiency="18.892" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="32.784" cantGradient="0.000" speed="100.0" transitionType="clothoid" curvature="ccw" adverse="false"/>
+        <CantStation station="295.852619564" equilibriumCant="0.000" appliedCant="0.000" cantDeficiency="0.000" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="32.784" cantGradient="0.000" speed="100.0" transitionType="clothoid" curvature="cw" adverse="false"/>
+        <CantStation station="319.845981675" equilibriumCant="28.318" appliedCant="0.000" cantDeficiency="28.318" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.000" cantGradient="0.000" speed="100.0" curvature="cw" adverse="false"/>
+        <CantStation station="394.250507503" equilibriumCant="28.318" appliedCant="0.000" cantDeficiency="28.318" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="13.110" cantGradient="0.000" speed="100.0" transitionType="clothoid" curvature="cw" adverse="false"/>
+        <CantStation station="454.250506851" equilibriumCant="0.000" appliedCant="0.000" cantDeficiency="0.000" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.000" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="572.843376429" equilibriumCant="0.000" appliedCant="0.000" cantDeficiency="0.000" rateOfChangeOfAppliedCantOverTime="49.382" rateOfChangeOfAppliedCantOverLength="1.778" rateOfChangeOfCantDeficiencyOverTime="49.049" cantGradient="562.503" speed="100.0" transitionType="clothoid" curvature="cw" adverse="false"/>
+        <CantStation station="662.843865263" equilibriumCant="318.919" appliedCant="160.000" cantDeficiency="158.919" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.000" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="1219.552099341" equilibriumCant="318.919" appliedCant="160.000" cantDeficiency="158.919" rateOfChangeOfAppliedCantOverTime="49.382" rateOfChangeOfAppliedCantOverLength="-1.778" rateOfChangeOfCantDeficiencyOverTime="49.049" cantGradient="562.503" speed="100.0" transitionType="clothoid" curvature="ccw" adverse="false"/>
+        <CantStation station="1309.552588065" equilibriumCant="0.000" appliedCant="0.000" cantDeficiency="0.000" rateOfChangeOfAppliedCantOverTime="0.000" rateOfChangeOfAppliedCantOverLength="0.000" rateOfChangeOfCantDeficiencyOverTime="0.000" cantGradient="0.000" speed="100.0" curvature="ccw" adverse="false"/>
+        <CantStation station="1321.697144239" appliedCant="0.000" curvature="cw" adverse="false"/>
+      </Cant>
+      <Feature code="Alignment">
+        <Property label="style" value="TLN Small"/>
+        <Property label="guid" value="fe7c1d98-bf5b-4c5f-a8a8-057291d4d562"/>
+      </Feature>
+    </Alignment>
+  </Alignments>
+</LandXML>
